@@ -2,7 +2,6 @@ import React from "react";
 import InfiniteCarousel from "react-leaf-carousel";
 
 export default ({ car }) => {
-  console.log(car["model_features"])
   return (
     <InfiniteCarousel
       breakpoints={[
