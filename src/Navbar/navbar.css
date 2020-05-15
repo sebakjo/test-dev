@@ -1,0 +1,135 @@
+.container {
+  height: 70px;
+  border-bottom: 2px solid #ecebeb;
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonsContainer {
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+.logo {
+  width: 38px;
+  height: 40px;
+  object-fit: contain;
+  align-self: center;
+}
+.buttons {
+  width: 121px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+  text-align: center;
+  align-self: center;
+}
+
+.buttons:hover {
+  width: 121px;
+  height: 40px;
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #eb0a1e;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 4px solid #eb0a1e;
+}
+.buttons-active {
+  width: 121px;
+  height: 40px;
+  margin-top: 27px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #eb0a1e;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 4px solid #eb0a1e;
+}
+.menu {
+  width: 90px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5e5e5e;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+.menuMobile {
+  width: 90px;
+  height: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5e5e5e;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+.gray {
+  width: 25px;
+  height: 18px;
+  object-fit: contain;
+}
+.navDropdown {
+  width: 390px;
+  height: 562px;
+  background-color: #ffffff;
+  position: fixed;
+  right: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+}
+.closeIcon {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+}
+.dropDownBlock {
+  border-bottom: 1px solid #efeeef;
+  text-align: right;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+.dropDownBlock2 {
+  border-bottom: 1px solid #efeeef;
+  text-align: right;
+  margin-right: 40px;
+}
+.dropDownBlock3 {
+  border-bottom: 1px solid #efeeef;
+  text-align: right;
+  background-color: #e7e7e7;
+}
+.dropDownBlock3 h3 {
+  margin-right: 40px;
+}

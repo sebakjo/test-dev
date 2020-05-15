@@ -1,0 +1,8 @@
+
+.carouselItem{
+    max-width: 270px;
+}
+.carouselItem p{
+    word-wrap: break-word;
+    max-width: 270px;
+}
